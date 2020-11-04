@@ -13,7 +13,7 @@ resources:
   repositories:
     - repository: templates
       type: github
-      name: YUYU_GRACE/templates
+      name: YUYU-GRACE/templates
       endpoint: YUYU-GRACE
 jobs:
 - template: template1.yml@templates
