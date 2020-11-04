@@ -12,7 +12,7 @@ pool:
 resources:
   repositories:
     - repository: templates
-      type: GitHub
+      type: github
       name: YUYU_GRACE/templates
       endpoint: YUYU-GRACE
 jobs:
