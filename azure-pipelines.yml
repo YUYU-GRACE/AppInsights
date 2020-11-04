@@ -20,5 +20,5 @@ stages:
     - template: template1.yml@templates
     - job: 
       steps:
-      - script: echo Hello, world!
+      - script: echo Hello, worlddd!
         displayName: 'Run a one-line script'
