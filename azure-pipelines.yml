@@ -8,7 +8,12 @@ trigger:
 
 pool:
   vmImage: 'ubuntu-latest'
-
+  
+resources:
+  repositories:
+    - repository: templates
+      type: GitHub
+      name: YUYU_GRACE/templates
 jobs:
 - template: template1.yml@templates
 - job: 
